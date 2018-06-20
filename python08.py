@@ -110,7 +110,7 @@ setattr(dog,"name","小黄");
 #获取对象某个属性getattr()
 print getattr(dog,"name")
 #print getattr(dog,"age") 获取不存在的属性会报错
-print getattr(dog,"age",5)
+print getattr(dog,"age",5) #设置一个默认值5
 #判断对象是否有某个属性
 print hasattr(dog,"name")
 print hasattr(dog,"age")
